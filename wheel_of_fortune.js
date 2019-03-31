@@ -2,9 +2,9 @@
 // CoderGirl WebDev (Winter 2019) — LaunchCode
 
 
-var word = 'DOG'; 
-var isGuessingLetter = true; 
-var letter = 'A'; 
+var word = "DOG"; 
+var isGuessingLetter = false; 
+var letter = "A"; 
 
 if (isGuessingLetter === true){
 	switch (letter) {
@@ -21,7 +21,7 @@ if (isGuessingLetter === true){
 			console.log("Sorry, no " + letter+ "!");	
 	}
 }else{
-	if (word = "DOG"){ 
+	if (word === "DOG"){ 
 		console.log("Congratulations! You won Wheel of Fortune!"); 
 
 	}else console.log("Nope, keep trying!"); 
